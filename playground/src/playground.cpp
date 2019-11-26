@@ -1,11 +1,12 @@
 //#include <vld.h>
 
-#include <iostream>
+#include <STL/STL.h>
 
 int
 main(int argc, char** argv)
 {	
-	std::cout << "Hello, World!" << std::endl;
+	const char* filepath = "D:/1.stl";
 
+	stl::STL self = stl::stl_read_binary(filepath);
 	return 0;
 }

@@ -12,8 +12,14 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/$<CONFIG>")
 
 # internal libraries
 add_subdirectory(playground)
+add_subdirectory(STL)
 
 # Organize Targets into folders
+
+set_target_properties(
+	STL
+	PROPERTIES FOLDER STL
+)
 
 set_target_properties(
 	playground
