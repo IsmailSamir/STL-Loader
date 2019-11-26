@@ -1,2 +1,2 @@
 # STL-Loader
-STL-Loader: load .stl file and get information from it 
+A simple library for reading STL 3D models
